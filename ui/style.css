@@ -584,7 +584,7 @@ span.bulletin-item-info[contenteditable]:empty::before {
 }
 
 #bcso-count {
-background-color: #cc7e25;;
+background-color: #cc7e25;
 }
 
 #sasp-count {
@@ -1605,7 +1605,6 @@ span.tag-input[contenteditable]:empty::before {
     height: 45vh;
     margin: auto;
     margin-top: 10px;
-    display: flex;
     flex-direction: column;
     z-index: 9998;
     display: none;
@@ -2869,7 +2868,6 @@ span.tag-incident-input[contenteditable]:empty::before {
     width: 95vh;
     height: 45vh;
     margin: auto;
-    display: flex;
     flex-direction: column;
     z-index: 9998;
     display: none;
@@ -5379,10 +5377,8 @@ span.tag-reports-input[contenteditable]:empty::before {
     padding-left: 7px;
     padding-right: 7px;
     border-radius: 10px;
-    color: black;
     font-size: 12px;
     font-weight: 600;
-    background-color: white;
     user-select: none;
     width: fit-content;
     background-color: white;
@@ -5670,10 +5666,8 @@ span.tag-reports-input[contenteditable]:empty::before {
     padding-left: 8px;
     padding-right: 8px;
     border-radius: 10px;
-    color: black;
     font-size: 12px;
     font-weight: 600;
-    background-color: white;
     user-select: none;
     width: fit-content;
     background-color: white;
@@ -5744,7 +5738,6 @@ span.tag-reports-input[contenteditable]:empty::before {
     width: 92vh;
     height: 46vh;
     margin: auto;
-    display: flex;
     flex-direction: column;
     z-index: 1;
     border: 2px solid #FFFFFF;
@@ -5885,7 +5878,7 @@ span.tag-reports-input[contenteditable]:empty::before {
     min-height: 21.5vh;
     max-height: 21.5vh;
     border: none;
-    padding: 10px 10px;
+    padding: 10px;
     background-color: transparent;
     color: #dadada;
     resize: none;
@@ -5902,7 +5895,6 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .respond-calls-response {
-    color: #dadada;
     margin-top: 0.5vh;
     padding: 0.5vh;
     background-color: rgba(32, 32, 32, 0.5);
@@ -5953,8 +5945,7 @@ span.tag-reports-input[contenteditable]:empty::before {
     height: 100%; 
 }
 
-.impound-form > form > input { 
-    border: none;
+.impound-form > form > input {
     outline: none;
     font-size: 24px;
     color: white;
@@ -6082,7 +6073,6 @@ span.tag-reports-input[contenteditable]:empty::before {
     padding: 10px;
     text-align: center;
     margin: 10px;
-    color: white;
     font-size: 20px;
     color: white;
     overflow: visible;
